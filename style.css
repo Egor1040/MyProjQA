@@ -21,6 +21,11 @@ body {
     align-items: center;
 }
 
+.projects-cases {
+    display: flex;
+    padding: 20px 0;
+}
+
 .case {
     padding: 10px;
     max-width: 400px;
