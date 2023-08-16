@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My projects QA</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="header">
+        <div class="container">
+            <div class="main-title">
+                <h1 class="main-title__top">My projects QA Manual</h1>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="projects">
+                <div class="projects-cases">
+                    <h2>Test Cases Item</h2>
+                    <div class="case">
+                        <div class="projects-cases__id">#01</div>
+                        <div class="projects-cases__name">Авторизація на сайті</div>
+                        <div class="projects-cases__steps">
+                            <span class="projects-cases__step">
+                                <span>1.Step:</span> Зайти на сайт https://automoto.ua/uk/. Expected Result: Сайт відкрився успішно
+                            </span>
+                            <span class="projects-cases__step">
+                                <span>2.Step:</span> Знайти іконку юзера у верхньому полі сайту та натиснути.
+                                Expected Result: Відкрилось модальне вікно для реєстрації або
+                                входу в обліковий запис через введення номера телефону.
+                            </span>
+                            <span class="projects-cases__step">
+                                <span>3.Step:</span> Ввести валідний номер телефону,та натиснути “Продовжити”
+                                Expected Result: Відкриється нижче вікно для вводу коду з СМС.
+                            </span>
+                            <span class="projects-cases__step">
+                                <span>4.Step:</span> Ввести код із СМС та натиснути “Продовжити” Expected
+                                Result: Відкриєтьс особистий кабінет з пунктами “Мої 
+                                оголошення”, “Мої платежі”, “Блокнот”, “Повідомлення”
+                                та “Налаштування”.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-reports"></div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
