@@ -24,9 +24,12 @@ body {
 .projects-cases {
     display: flex;
     padding: 20px 0;
+    column-gap: 10px;
 }
 
 .case {
+    background: #2b5d5f;
+    border-radius: 10px;
     padding: 10px;
     max-width: 400px;
     display: flex;
@@ -51,7 +54,13 @@ body {
     row-gap: 5px;
 }
 
-.projects-cases__step span {
+.projects-cases__step span:nth-child(1) {
     font-weight: bold;
 }
+
+.projects-cases__step span:nth-child(2) {
+    font-weight: bold;
+    font-size: 14px;
+}
+
 
